@@ -118,7 +118,7 @@ function createBarGraphDiff(data, total, id) {
     const container = document.getElementById(id);
   
     const barsDiv = document.createElement("div");
-    barsDiv.style.width = "400px";
+    barsDiv.style.width = "800px";
     barsDiv.style.height = "400px";
     barsDiv.style.borderLeft = "1px solid #515ada";
     barsDiv.style.borderBottom = "1px solid #515ada";
@@ -165,7 +165,6 @@ function createBarGraphDiff(data, total, id) {
       labelsDiv.appendChild(el_label);
     });
     
-    // barsDiv.style.height = "1000px";
     container.appendChild(barsDiv);
     container.appendChild(labelsDiv);
   }
